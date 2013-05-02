@@ -4,8 +4,12 @@
 	<meta charset="utf-8">
 	<title><?php echo $title; ?></title>
 	<?php echo Asset::css('bootstrap.css'); ?>
+	
+	<?php echo Asset::css('Grid.css'); ?>
+	<?php echo Asset::js('Grid.js'); ?>
+
 	<style>
-		body { margin: 40px; }
+		body { margin: 10px; }
 	</style>
 </head>
 <body>
