@@ -1,9 +1,13 @@
-<p>Auth</p>eeeeeeeeeeeeee
+<?php if (isset($error)): ?>
+<?php echo $error ?>
+<?php endif ?>
+<?php echo $form ?>
 
-  <div>
-		<?php /* echo $errorMessage; */ ?>
-	</div>
-  <ul>
-  <li><a href="index">ログイン画面に戻る</a></li>
-  <li><a href="../portal/index">画面</a></li>
-  </ul>
+<hr>
+<div>
+	<?php /* echo $errorMessage; */ ?>
+</div>
+<ul>
+<li><a href="index">ログイン画面に戻る</a></li>
+<li><a href="../public/portal">画面</a></li>
+</ul>
